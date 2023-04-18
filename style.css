@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0; /* USAR SEMPRE*/
+    padding: 0; /* USAR SEMPRE*/
+}
+:root {
+    --cor-backgrund: black;
+    --cor-textobramco: white;
+    --cor-h2: red;
+    ;
+}
+
+
+
+body {
+    box-sizing: border-box;/* Vai evitar que estoure o tamanho da tela */
+    background-color: var(--cor-backgrund);
+    color: var(--cor-textobramco);
+    
+     
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    font-family: 'Krona One', sans-serif;
+    background-color: var(--cor-h2);
+    font-size: 18px;  
+}
+.link__cabecalho {
+    text-decoration: none;
+    color: white;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10%;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+ 
+    
+}
+.links {
+   display: flex;
+   font-size: 24px;
+  /* width: 32%;*/
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   text-align: center;
+   gap: 12px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+}
+.redes__redes {  
+    padding: 9px;
+    border: solid var(--cor-h2);
+    text-decoration: none;
+    color: var(--cor-textobramco);
+    border-radius: 12%
+}
+.redes__redes:hover {
+    background-color:rgb(50, 2, 2);
+    color: red;
+}
+
+.titulo {
+    
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+      
+}
+
+
+.h2 {
+    color: var(--cor-h2);
+}
+
+.projetos {
+ padding: 2%;
+ display: flex;
+ justify-content: center;
+ gap: 100px;
+}
+
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    border: solid red;
+}
+.img2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    border: solid red;
+}
+.img3 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    border: solid red;
+}
+
+
+
+.about__paragrafo {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+   
+}
+.about__style {
+    gap: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    color: var(--cor-h2);    
+}
+.galery__contruction {
+    padding: 24px;
+   
+    
+    
+}
